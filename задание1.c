@@ -1,10 +1,10 @@
-#include <locale.h>
+п»ї#include <locale.h>
 #include <stdio.h>
 
 void main()
 {
 setlocale(LC_ALL, "RUS");
-puts("Моя программа");
+puts("РњРѕСЏ РїСЂРѕРіСЂР°РјРјР°");
 getchar();
 return 0;
 }
